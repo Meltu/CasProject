@@ -1,0 +1,502 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1655953008618472, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953008621381, "dur": 32802, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953008654469, "dur": 67287, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953008721799, "dur": 546685, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953009268492, "dur": 13272175, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953022540694, "dur": 10344, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953043241535, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953043242421, "dur": 7999, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953043250423, "dur": 62001, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953043312430, "dur": 673634, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953043986068, "dur": 615533, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953044601607, "dur": 1121, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953044604917, "dur": 53, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1655953043667163, "dur": 274371, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655953043670138, "dur": 98609, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655953043895903, "dur": 9559, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655953043905465, "dur": 36050, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655953043907181, "dur": 33415, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655953043949326, "dur": 2914, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1655953043948427, "dur": 3874, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953044605162, "dur": 297, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1655953044047925, "dur":1796, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044049743, "dur":544, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1655953044050298, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1655953044050314, "dur":224, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1655953044050571, "dur":865, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044051436, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044587751, "dur":8, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044587759, "dur":25, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044587784, "dur":53, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044587837, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044587843, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044587843, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044587848, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044587848, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044587852, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044587863, "dur":5, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044587869, "dur":2639, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1655953044050397, "dur":1052, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044051454, "dur":2231, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044053686, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655953044053698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044054788, "dur":145, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1655953044054937, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1655953044054952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044055837, "dur":351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1655953044056196, "dur":503, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655953044056703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044056711, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1655953044056892, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1655953044056904, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044056959, "dur":352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1655953044057318, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1655953044057327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044057338, "dur":1115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1655953044058459, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1655953044058469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044058477, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1655953044060042, "dur":8704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1655953044068751, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044068769, "dur":3976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1655953044072753, "dur":4246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044077017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044077028, "dur":277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044077310, "dur":2462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044079781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044079792, "dur":240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044080038, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1655953044080060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044080143, "dur":439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1655953044080597, "dur":7785, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044088388, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044088399, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044089927, "dur":1625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044091558, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044091567, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044092410, "dur":1468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044093884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044093893, "dur":160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044094058, "dur":5921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044099984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044100000, "dur":7052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044107059, "dur":2111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044109177, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044109188, "dur":3074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044112268, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044113275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044113285, "dur":210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044113500, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044113880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044113889, "dur":135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044114028, "dur":2236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044117836, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044117845, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044118634, "dur":714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044119353, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044119362, "dur":493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044119861, "dur":25523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044145391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044145401, "dur":33691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044179098, "dur":686, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044179788, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044179796, "dur":151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044179951, "dur":2719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044182687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044182697, "dur":7460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044190164, "dur":10365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044200538, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044200548, "dur":214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044200766, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044201069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044201076, "dur":97, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044201176, "dur":1108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044202288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044202296, "dur":956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044203260, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044203682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044203693, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044203843, "dur":3861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044207714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044207724, "dur":166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044207894, "dur":586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044208485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044208493, "dur":184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044208682, "dur":4782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044213470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044213480, "dur":300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044213785, "dur":2206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044215996, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044216004, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044217484, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044217953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044217962, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044218111, "dur":944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044219061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044219069, "dur":838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044219912, "dur":1069, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044220987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044220996, "dur":414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044221414, "dur":3970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044225390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044225397, "dur":7754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044233156, "dur":1564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044234726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044234736, "dur":843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044236213, "dur":3446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044239664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044239673, "dur":132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044239809, "dur":26884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044266701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044266710, "dur":15016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044281732, "dur":3103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044284844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044284853, "dur":670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044285528, "dur":1471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044287007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044287038, "dur":200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044287243, "dur":62497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044349750, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044349761, "dur":66715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044416483, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655953044416494, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044416503, "dur":23893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1655953044440403, "dur":2982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044443392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044443401, "dur":411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044443816, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1655953044443825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044443831, "dur":481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/level0" }}
+,{ "pid":12345, "tid":1, "ts":1655953044444316, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1655953044444652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044444660, "dur":78, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1655953044444742, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655953044444749, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044444755, "dur":4968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1655953044449729, "dur":1996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1655953044451731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044451738, "dur":114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1655953044451856, "dur":360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044452220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044452228, "dur":147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1655953044452379, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1655953044452386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1655953044452392, "dur":3409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1655953044455805, "dur":131888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655953044050425, "dur":1034, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655953044051460, "dur":2475, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655953044053936, "dur":1225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655953044055179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655953044055191, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655953044055315, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1655953044055324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655953044055963, "dur":594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1655953044056564, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1655953044056573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655953044056581, "dur":335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1655953044056922, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1655953044057268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655953044057282, "dur":177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1655953044057464, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1655953044057473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655953044058148, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1655953044058519, "dur":594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1655953044059118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655953044059128, "dur":135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1655953044059269, "dur":259789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655953044319066, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1655953044319077, "dur":268485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1655953044587589, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":2, "ts":1655953044587592, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044050499, "dur":970, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044051469, "dur":2393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044053864, "dur":654, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044054525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044054719, "dur":206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044054931, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044055598, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044055607, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044056527, "dur":456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1655953044056987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044057059, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1655953044057190, "dur":1070, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1655953044058281, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044058290, "dur":123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1655953044058420, "dur":553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1655953044058978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044059026, "dur":161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1655953044059193, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1655953044059203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044059213, "dur":1080, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1655953044060298, "dur":3904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical.exe" }}
+,{ "pid":12345, "tid":3, "ts":1655953044064208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044064216, "dur":2555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical.exe" }}
+,{ "pid":12345, "tid":3, "ts":1655953044066777, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1655953044066793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044066883, "dur":28786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1655953044095678, "dur":3455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044099141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044099151, "dur":254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044099410, "dur":3001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044102418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044102427, "dur":445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044102878, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044103424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044103434, "dur":169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044103608, "dur":818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044104433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044104442, "dur":362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044104810, "dur":15571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044120387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044120397, "dur":371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044120772, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044121429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044121437, "dur":186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044121628, "dur":731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044122363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044122370, "dur":141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044122515, "dur":2591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044125114, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044125125, "dur":508, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044125638, "dur":4081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044129726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044129736, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044129932, "dur":3339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044133293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044133303, "dur":183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044133491, "dur":7545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044141045, "dur":38, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044141091, "dur":376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044141472, "dur":1457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044142935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044142944, "dur":159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044143108, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1655953044143128, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044143135, "dur":17354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":3, "ts":1655953044160496, "dur":5974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044166477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044166488, "dur":173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044166666, "dur":12525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044179195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044179204, "dur":196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044179404, "dur":3991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044183401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044183424, "dur":18289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044201717, "dur":5214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044206938, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044206949, "dur":513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044207468, "dur":351, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044207824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044207833, "dur":120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044207956, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1655953044207965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044207971, "dur":74, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1655953044208046, "dur":4054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044212107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044212117, "dur":182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044212304, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044212789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044212798, "dur":125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044212928, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044213931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044213939, "dur":132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044214074, "dur":1066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044215145, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044215153, "dur":379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044215537, "dur":931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044216474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044216483, "dur":180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044216667, "dur":1128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044217800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044217810, "dur":233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044218048, "dur":6699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044224755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044224766, "dur":7378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044232150, "dur":3236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044235392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044235415, "dur":291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044235712, "dur":1137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044236854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044236863, "dur":1751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044238619, "dur":1182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044239806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044240226, "dur":6547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044246778, "dur":13135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044259922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044259933, "dur":8709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044268648, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044269522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044269530, "dur":756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044270290, "dur":1471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044271767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044271776, "dur":134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044271915, "dur":172505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044444425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1655953044444439, "dur":104688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1655953044549140, "dur":38587, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044050543, "dur":932, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044051475, "dur":2265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044053742, "dur":1149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044054896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044054914, "dur":175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044055103, "dur":348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1655953044055455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044055963, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1655953044056119, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1655953044056130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044056148, "dur":488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1655953044056643, "dur":6498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044063147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044063155, "dur":4506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044067667, "dur":776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044068448, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044068457, "dur":3583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044072047, "dur":5211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044077263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044077271, "dur":3586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044080862, "dur":2066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044082936, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044082945, "dur":607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044083562, "dur":3693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044087263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044087274, "dur":359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044087641, "dur":1393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044089039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044089049, "dur":928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044089982, "dur":1025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044091014, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044091024, "dur":239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044091267, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044091652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044091659, "dur":109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044091772, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1655953044091787, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044091860, "dur":396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1655953044092262, "dur":495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044092777, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044092786, "dur":198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044092988, "dur":1338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044094331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044094340, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044094985, "dur":1015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044096006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044096016, "dur":191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044096211, "dur":3119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044099335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044099452, "dur":136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044099592, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044099928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044099937, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044100060, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044100453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044100461, "dur":208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044100674, "dur":2793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044103471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044103478, "dur":4814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044108298, "dur":6734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044117536, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044117549, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044119918, "dur":1011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044120934, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044120944, "dur":188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044121136, "dur":1018, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044122159, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044122169, "dur":137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044122310, "dur":3935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044126251, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044126261, "dur":6328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044132595, "dur":950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044133549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044133558, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044133683, "dur":8367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044142057, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044142066, "dur":145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044142215, "dur":751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044142971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044142979, "dur":375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044143358, "dur":650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044144015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044144024, "dur":149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044144177, "dur":4918, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044149102, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044149111, "dur":615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044149732, "dur":8807, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044158548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044158559, "dur":7427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044165992, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044166762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044166772, "dur":119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044166895, "dur":12596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044179495, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044179504, "dur":142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044179649, "dur":5218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044184875, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044184963, "dur":28843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044213815, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044214120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044214127, "dur":91, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044214221, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044214558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044214566, "dur":152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044214722, "dur":3499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044218237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044218244, "dur":15343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044233592, "dur":5724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044239323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044239334, "dur":165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044239504, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044240093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044240101, "dur":6095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044246202, "dur":1027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044247243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044247250, "dur":163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044247417, "dur":15242, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044262667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044262676, "dur":3443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044266127, "dur":1952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044268086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044268095, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044268465, "dur":763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044269234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044269257, "dur":124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044269386, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044269706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044269713, "dur":80, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044269806, "dur":28808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044298622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044298632, "dur":64344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044362988, "dur":22337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044385333, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044385342, "dur":174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044385521, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044386197, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044386206, "dur":343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044386553, "dur":269, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1655953044386827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044393060, "dur":121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1655953044393185, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1655953044393206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044393219, "dur":6611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1655953044399837, "dur":19571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044419416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044419425, "dur":22461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1655953044441892, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655953044441902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044441911, "dur":2284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/level0.resS" }}
+,{ "pid":12345, "tid":4, "ts":1655953044444199, "dur":5593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1655953044449796, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044449805, "dur":91, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1655953044449899, "dur":4, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655953044449906, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1655953044449912, "dur":5696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/vaughan/github/CasProject/Releases/Cubeical-Windows/Cubeical/Cubeical_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1655953044455614, "dur":132017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1655953044591864, "dur":671, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1655953044605491, "dur": 685, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1655953044604892, "dur": 1297, "ph": "X", "name": "Write chrome-trace events", "args": {} },
