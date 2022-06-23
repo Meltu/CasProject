@@ -905,4 +905,4 @@ ScriptsOnlyBuild:
   platform: 2
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /home/vaughan/github/CasProject/Releases/Cubeical-MacOS/Cubeical.app
+  playerPath: /home/vaughan/github/CasProject/Releases/Cubeical-MacOS/Cubeical0-0-1.app
